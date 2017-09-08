@@ -1,0 +1,21 @@
+# Site settings
+title: A. K.'s  Array
+header-img: img/home-bg.png
+email: amy.kristen.young@gmail.com
+copyright_name: amyamy108
+description: > # this means to ignore newlines until "baseurl:"
+  "the map is not the territory"
+baseurl: "" # the subpath of your site, e.g. /blog
+twitter_username: amyamy108
+github_username:  amyamy108
+learn_profile: amyamy108
+email_username: amy.kristen.young@gmail.com
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
