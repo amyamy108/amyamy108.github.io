@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Tic Tac Toe: Valid Move, Valid Question"
-date:       2018-03-16 16:41:32 +0000
+date:       2018-03-16 12:41:33 -0400
 permalink:  tic_tac_toe_valid_move_valid_question
 ---
 
@@ -96,5 +96,16 @@ This lab was a bit of a milestone: I solved it without help from an outside part
 Lastly, write it all down. I'll write it all down, too.
 
 Happy Friday, all! And happy coding! 
+
+UPDATE: After getting it checked, the #valid_move? can be simpified further! See below:
+
+def valid_move?(board, index)
+  if position_taken?(board, index)
+    false
+  elsif index.between?(0,8)
+    true
+  end
+end
+
 
 - A. K. Young
